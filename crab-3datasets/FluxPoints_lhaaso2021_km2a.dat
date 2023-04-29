@@ -1,0 +1,25 @@
+# %ECSV 0.9
+# ---
+# datatype:
+# - {name: e_ref, unit: TeV, datatype: float64}
+# - {name: e2dnde, unit: TeV / (cm2 s), datatype: float64}
+# - {name: e2dnde_errn, unit: TeV / (cm2 s), datatype: float64}
+# - {name: e2dnde_errp, unit: TeV / (cm2 s), datatype: float64}
+# - {name: e2dnde_ul, unit: TeV / (cm2 s), datatype: float64}
+# - {name: is_ul, datatype: bool}
+# meta: !!omap
+# - {SED_TYPE: e2dnde}
+# schema: astropy-2.0
+e_ref e2dnde e2dnde_errn e2dnde_errp e2dnde_ul is_ul
+12.524 6.7459273599999995e-12 0.0 0.0 0.0 False
+19.801 4.14969557e-12 0.0 0.0 0.0 False
+31.559 2.5084355560000002e-12 0.0 0.0 0.0 False
+49.898 1.54309565e-12 0.0 0.0 0.0 False
+78.892 8.792513399999999e-13 0.0 0.0 0.0 False
+125.74 4.56071554e-13 0.0 0.0 0.0 False
+198.81 2.73483036e-13 6.691944599999999e-14 0.0 0.0 False
+314.33 1.090316471e-13 4.1884472499999994e-14 6.35512394e-14 0.0 False
+496.98 8.22551598e-14 5.1057240300000007e-14 6.56659674e-14 0.0 False
+792.1 4.2665674400000005e-14 2.7288637100000002e-14 7.273537460000001e-14 0.0 False
+1252.4 6.74592736e-14 4.2518980000000005e-14 1.197244304e-13 0.0 False
+1996.1 1.7018948209999998e-13 0.0 0.0 1.7018948209999998e-13 True
